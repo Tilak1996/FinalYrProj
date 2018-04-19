@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sd_card_dialog.xml",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\layout\\sd_card_dialog.xml"
+    },
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toggle_sensors_layout.xml",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\layout\\toggle_sensors_layout.xml"
+    },
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preferences_layout.xml",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\layout\\preferences_layout.xml"
+    }
+]

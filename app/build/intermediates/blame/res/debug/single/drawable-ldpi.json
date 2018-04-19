@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\toggle_sensors_gray.png",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\drawable-ldpi\\toggle_sensors_gray.png"
+    },
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\preferences.png",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\drawable-ldpi\\preferences.png"
+    },
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\preferences_gray.png",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\drawable-ldpi\\preferences_gray.png"
+    },
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\toggle_sensors_gray_obsolete2.png",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\drawable-ldpi\\toggle_sensors_gray_obsolete2.png"
+    },
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\toggle_sensors_gray_obsolete.png",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\drawable-ldpi\\toggle_sensors_gray_obsolete.png"
+    },
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\toggle_sensors.png",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\drawable-ldpi\\toggle_sensors.png"
+    },
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    }
+]

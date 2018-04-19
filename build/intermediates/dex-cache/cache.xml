@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\libs\sensorsimulator-lib-2.0-rc1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2b4dfb2303cd9ab2004521a362d2a4a33ef35ba5">
+        <dex dex="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\pre-dexed\debug\sensorsimulator-lib-2.0-rc1_82d71cd7a862156116791dafba6e22e5e5dec847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_f99aaa70e93809d496a948622d7f36471fd9560b.jar" />
+    </item>
+
+</items>

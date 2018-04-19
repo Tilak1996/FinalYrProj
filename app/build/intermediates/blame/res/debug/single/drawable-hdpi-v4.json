@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_toggle_sensors_tab.xml",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\drawable-hdpi\\icon_toggle_sensors_tab.xml"
+    },
+    {
+        "merged": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_preferences_tab.xml",
+        "source": "D:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\src\\main\\res\\drawable-hdpi\\icon_preferences_tab.xml"
+    }
+]
