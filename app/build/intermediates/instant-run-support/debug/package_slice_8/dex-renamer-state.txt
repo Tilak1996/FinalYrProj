@@ -1,0 +1,4 @@
+#Sat Apr 21 18:37:20 IST 2018
+base.0=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8
+renamed.0=classes.dex
+file.0=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8\\classes.dex

@@ -1,0 +1,7 @@
+#Sat Apr 21 18:37:18 IST 2018
+base.0=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\sensorsimulator-lib-2.0-rc1_82d71cd7a862156116791dafba6e22e5e5dec847
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_f99aaa70e93809d496a948622d7f36471fd9560b\\classes.dex
+base.1=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_f99aaa70e93809d496a948622d7f36471fd9560b
+file.0=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\sensorsimulator-lib-2.0-rc1_82d71cd7a862156116791dafba6e22e5e5dec847\\classes.dex

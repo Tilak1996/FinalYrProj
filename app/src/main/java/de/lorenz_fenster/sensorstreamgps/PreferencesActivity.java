@@ -79,9 +79,9 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 
 
     // private double[] mAccBuffer 		= new double[3];
-    private double[] mGyroBuffer 		= new double[3];
     // private double[] mMagBuffer 		= new double[3];
-    
+	private double[] mGyroBuffer 		= new double[3];
+
   
     // private double[] mOriBuffer 		= new double[3];
     private double[] mLin_Acc_Buffer 	= new double[3];
@@ -141,8 +141,7 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 		}
 
 		@Override
-		public void onSensorChanged(SensorEvent event) 
-		{
+		public void onSensorChanged(SensorEvent event) {
 			
 			
 			//temp1 = SystemClock.uptimeMillis();		
@@ -151,13 +150,35 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 			//double x = event.values[0];
 	        //double y = event.values[1];
 	        //double z = event.values[2];
-					
-		       
-		    mGyroBuffer[0] = event.values[0];
-		    mGyroBuffer[1] = event.values[1];
-		    mGyroBuffer[2] = event.values[2];
-		    mGyroBufferReady = true;
-		    mGyroTime = timestamp_sec;
+			switch (event.sensor.getType())
+			{
+
+				case Sensor.TYPE_LINEAR_ACCELERATION:
+
+					for(int i=0; i<event.values.length;i++)
+					{
+						mLin_Acc_Buffer[i]=event.values[i];
+					}
+					mLin_Acc_BufferReady = true;
+					mLin_Acc_Time = timestamp_sec;
+					break;
+
+				case Sensor.TYPE_GRAVITY:
+
+					for(int i=0; i<event.values.length;i++)
+					{
+						mGraBuffer[i]=event.values[i];
+					}
+					mGraBufferReady = true;
+					mGraTime = timestamp_sec;
+					break;
+				case Sensor.TYPE_GYROSCOPE:
+					mGyroBuffer[0] = event.values[0];
+					mGyroBuffer[1] = event.values[1];
+					mGyroBuffer[2] = event.values[2];
+					mGyroBufferReady = true;
+					mGyroTime = timestamp_sec;
+			}
 
 			// switch (event.sensor.getType()) {
 			
@@ -206,60 +227,30 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 			
 			if ((ToggleSensorsActivity.ismActive())) 	// && mCounter % mScreenDelay ==0
 			{		        	
+				if (SensorStreamActivity.isMbChecked_Sensor_Data()) {
 
-		            	
-		            	for(int i=0; i<3;i++)
-			            {
-		            		// ToggleSensorsActivity.mAcc[i].setText(String.format("%6.3f", mAccBuffer[i]));
-		            		ToggleSensorsActivity.mGyr[i].setText(String.format("%6.3f", mGyroBuffer[i]));
-		            		// ToggleSensorsActivity.mMag[i].setText(String.format("%6.3f", mMagBuffer[i]));
-			            }
-		               
-		            	if (SensorStreamActivity.isMbChecked_Sensor_Data())
-		            	{
-		            		
-		        //     		if(SensorStreamActivity.isMbOrientation())
-		    				// {
-		    				// 	for(int i=0; i<3;i++)
-		    		  //           {
-		    	   //          		ToggleSensorsActivity.mOri[i].setText(String.format("%6.3f", mOriBuffer[i]));
-		    		  //           }
-		    				// }
-		    				
-		    				if(SensorStreamActivity.isMbLin_Acceleration())
-		    				{
-		    					for(int i=0; i<3;i++)
-		    		            {
-		    	            		ToggleSensorsActivity.mLin_Acc[i].setText(String.format("%6.3f", mLin_Acc_Buffer[i]));
-		    		            }
-		    				}
-		    				
-		    				if(SensorStreamActivity.isMbGravity())
-		    				{
-		    					for(int i=0; i<3;i++)
-		    		            {
-		    	            		ToggleSensorsActivity.mGra[i].setText(String.format("%6.3f", mGraBuffer[i]));
-		    		            }
-		    				}
-		    				
-		    				// if(SensorStreamActivity.isMbLin_Acceleration())
-		    				// {
-		    				// 	for(int i=0; i<3;i++)
-		    		  //           {
-		    	   //          		ToggleSensorsActivity.mRot_Vec[i].setText(String.format("%6.3f", mRot_Vec_Buffer[i]));
-		    		  //           }
-		    				// }
-		    				
-		            		// if(SensorStreamActivity.isMbPressure())
-		            		// {
-		            		// 	ToggleSensorsActivity.mPre.setText(String.format("%6.3f", mPreBuffer));
-					            
-		            		// }
-		            	}
-		                
-		            
-		            
-		        }
+					if(SensorStreamActivity.isMbgyroscope()) {
+						for(int i=0; i<3;i++)
+						{
+							ToggleSensorsActivity.mGyr[i].setText(String.format("%6.3f", mGyroBuffer[i]));
+						}
+					}
+		    		if(SensorStreamActivity.isMbLin_Acceleration())
+					{
+		    			for(int i=0; i<3;i++)
+		    		    {
+		    	       		ToggleSensorsActivity.mLin_Acc[i].setText(String.format("%6.3f", mLin_Acc_Buffer[i]));
+		    		    }
+		    		}
+					if(SensorStreamActivity.isMbGravity())
+		    		{
+		    			for(int i=0; i<3;i++)
+		    		    {
+		    	       		ToggleSensorsActivity.mGra[i].setText(String.format("%6.3f", mGraBuffer[i]));
+		    		    }
+		    		}
+				}
+			}
 		        
 			
 			
@@ -268,139 +259,77 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 //		        boolean gyroReady =
 //		            ( (Math.abs(mGyroTime - mAccTime) < mMaxSecDiff) &&
 //		              (mGyroBufferReady == true) );
-                boolean gyroReady = mGyroBufferReady;
+//                boolean gyroReady = mGyroBufferReady;
 		        // boolean magReady =
 		        //     ( (Math.abs(mMagTime - mAccTime) < mMaxSecDiff) &&
 		        //       (mMagBufferReady == true) );
 		        
 		        mStrBuilder.setLength(0);
-		           
+//				mStrBuilder.append(String.format(Locale.ENGLISH, "%.5f", timestamp_sec));
 		        // addSensorToString(mStrBuilder, CSV_ID_ACCELEROMETER, mAccBuffer);
 		        // mAccBufferReady = false;
-		        
-		        if (gyroReady == true) {
-		             addSensorToString(mStrBuilder, CSV_ID_GYROSCOPE, mGyroBuffer);
-		            mGyroBufferReady = false;
-		        }
-		        // if (magReady == true) {
-		        //     addSensorToString(mStrBuilder, CSV_ID_MAG,  mMagBuffer);
-		        //     mMagBufferReady = false;
-		        // }
+//				if(SensorStreamActivity.isMbLin_Acceleration() && SensorStreamActivity.isMbGravity()) {
+//					if(mGyroBufferReady && mLin_Acc_BufferReady && mGraBufferReady) {
+//						addSensorToString(mStrBuilder, CSV_ID_LIN_ACC, mLin_Acc_Buffer);
+//						mLin_Acc_BufferReady = false;
+//						addSensorToString(mStrBuilder, CSV_ID_GRA, mGraBuffer);
+//						mGraBufferReady = false;
+//						addSensorToString(mStrBuilder, CSV_ID_GYROSCOPE, mGyroBuffer);
+//		            	mGyroBufferReady = false;
+//					}
+//				}
+				if(SensorStreamActivity.isMbgyroscope()) {
+					if (mGyroBufferReady == true) {
+						mStrBuilder.append(String.format(Locale.ENGLISH, "%.5f", mGyroTime));
+						addSensorToString(mStrBuilder, CSV_ID_GYROSCOPE, mGyroBuffer);
+						mGyroBufferReady = false;
+					}
+				}
+				if(SensorStreamActivity.isMbGravity()) {
+					if (mGraBufferReady == true) {
+						mStrBuilder.append(String.format(Locale.ENGLISH, "%.5f", mGraTime));
+						addSensorToString(mStrBuilder, CSV_ID_GRA, mGraBuffer);
+						mGraBufferReady = false;
+					}
+				}
+				if(SensorStreamActivity.isMbLin_Acceleration()) {
+					if (mLin_Acc_BufferReady == true) {
+						mStrBuilder.append(String.format(Locale.ENGLISH, "%.5f", mLin_Acc_Time));
+						addSensorToString(mStrBuilder, CSV_ID_LIN_ACC, mLin_Acc_Buffer);
+						mLin_Acc_BufferReady = false;
+					}
+				}
 
 		        
 		        
 		        
-		        if(SensorStreamActivity.isMbChecked_Sensor_Data())
-		        {
-		        	
-		        	// if(SensorStreamActivity.ismGPS())
-		        	// {
-		        	// 	if(ToggleSensorsActivity.ismGps_available() == true)
-		        	// 	{
-
-		        			
-		        	// 		mStrBuilder.insert(0, String.format(Locale.ENGLISH, ", %d, %10.6f,%11.6f,%6.1f", CSV_ID_BLH, ToggleSensorsActivity.getmBLH()[0],ToggleSensorsActivity.getmBLH()[1],ToggleSensorsActivity.getmBLH()[2]));
-		        	// 		mStrBuilder.append(String.format(Locale.ENGLISH, ", %d, %12.3f,%12.3f,%12.3f", CSV_ID_XYZ_WGS84, ToggleSensorsActivity.getmXYZ()[0],ToggleSensorsActivity.getmXYZ()[1],ToggleSensorsActivity.getmXYZ()[2]));
-		        	// 		mStrBuilder.append(String.format(Locale.ENGLISH, ", %d, %6.3f,%6.3f,%6.3f", CSV_ID_VELOCITY_WGS84, ToggleSensorsActivity.getmV_e()[0],ToggleSensorsActivity.getmV_e()[1],ToggleSensorsActivity.getmV_e()[2]));
-		        	// 		mStrBuilder.append(String.format(Locale.ENGLISH, ", %d, %d", CSV_ID_GPS_UTC_TIME, ToggleSensorsActivity.getmGPS_UCT_Time()));
-		        	// 		ToggleSensorsActivity.setmGps_available(false);
-		        			
-		        			
-		        			/*
-		        			 * 
-		        			 * 
-		        			addGNSSToString(mStrBuilder, CSV_ID_BLH, ToggleSensorsActivity.getmBLH());
-		        			addGNSSToString(mStrBuilder, CSV_ID_XYZ_WGS84, ToggleSensorsActivity.getmXYZ());
-		        			addGNSSToString(mStrBuilder, CSV_ID_VELOCITY_WGS84, ToggleSensorsActivity.getmV_e());
-		        			
-		        			mStrBuilder.insert(0, String.format(Locale.ENGLISH, ", %d, %10.6f,%11.6f,%6.1f", CSV_ID_BLH, ToggleSensorsActivity.getmBLH()));
-		        			mStrBuilder.append(String.format(Locale.ENGLISH, ", %d, %12.3f,%12.3f,%12.3f", CSV_ID_XYZ_WGS84, ToggleSensorsActivity.getmXYZ()));
-		        			mStrBuilder.append(String.format(Locale.ENGLISH, ", %d, %6.3f,%6.3f,%6.3f", CSV_ID_VELOCITY_WGS84, ToggleSensorsActivity.getmV_e()));
-		        			
-		        			mStrBuilder.insert(0, String.format(Locale.ENGLISH, ", %d, %10.6f,%11.6f,%5.1f", sensorid, values[0], values[1], values[2]));
-		        			
-		        			
-		        			else if(sensorid == 6)
-		        			{
-		        				strbuilder.append(String.format(Locale.ENGLISH, ", %d, %12.3f,%12.3f,%12.3f", sensorid, values[0], values[1], values[2]));
-		        			}
-		        			
-		        			else if(sensorid == 7)
-		        			{
-		        				strbuilder.append(String.format(Locale.ENGLISH, ", %d, %6.3f,%6.3f,%6.3f", sensorid, values[0], values[1], values[2]));
-		        				//strbuilder.append(String.format(Locale.ENGLISH, ", Absolute Speed %.3f", ToggleSensorsActivity.mSpeed));
-		        			}
-		        			*/
-		        			
-		        		// }
-		        	// }
-		        	// if(SensorStreamActivity.isMbOrientation())
-		        	// {
-		        	// 	boolean oriReady =
-				       //      ( (Math.abs(mOriTime - mAccTime) < mMaxSecDiff) &&
-				       //        (mOriBufferReady == true) );
-		        		
-		        	// 	if (oriReady == true) {
-				       //       addSensorToString(mStrBuilder, CSV_ID_ORI, mOriBuffer);
-				       //      mOriBufferReady = false;
-				       //  }
-		        	// }
-		        	
-		        	if(SensorStreamActivity.isMbLin_Acceleration())
-		        	{
-		        		boolean linaccReady = mLin_Acc_BufferReady;
+//		        if(SensorStreamActivity.isMbChecked_Sensor_Data())
+//		        {
+//		        	if(SensorStreamActivity.isMbLin_Acceleration())
+//		        	{
+//		        		boolean linaccReady = mLin_Acc_BufferReady;
 //				            ( (Math.abs(mLin_Acc_Time - mAccTime) < mMaxSecDiff) &&
 //				              (mLin_Acc_BufferReady == true) );
 		        		
-		        		if (linaccReady == true) {
-				             addSensorToString(mStrBuilder, CSV_ID_LIN_ACC, mLin_Acc_Buffer);
-				            mLin_Acc_BufferReady = false;
-				        }
-		        	}
+//		        		if (linaccReady == true) {
+//				             addSensorToString(mStrBuilder, CSV_ID_LIN_ACC, mLin_Acc_Buffer);
+//				            mLin_Acc_BufferReady = false;
+//				        }
+//		        	}
 		        	
-		        	if(SensorStreamActivity.isMbGravity())
-		        	{
-		        		boolean gravReady = mGraBufferReady;
+//		        	if(SensorStreamActivity.isMbGravity())
+//		        	{
+//		        		boolean gravReady = mGraBufferReady;
 //				            ( (Math.abs(mGraTime - mAccTime) < mMaxSecDiff) &&
 //				              (mGraBufferReady == true) );
 		        		
-		        		if (gravReady == true) {
-				             addSensorToString(mStrBuilder, CSV_ID_GRA, mGraBuffer);
-				            mGraBufferReady = false;
-				        }
-		        	}
-		        	
-		        	// if(SensorStreamActivity.isMbRot_Vector())
-		        	// {
-		        	// 	boolean rotvecReady =
-				       //      ( (Math.abs(mRot_Vec_Time - mAccTime) < mMaxSecDiff) &&
-				       //        (mRot_Vec_BufferReady == true) );
-		        		
-		        	// 	if (rotvecReady == true) {
-				       //       addSensorToString(mStrBuilder, CSV_ID_ROT_VEC, mRot_Vec_Buffer);
-				       //      mRot_Vec_BufferReady = false;
-				       //  }
-		        	// }
-		        	
-		        	// if(SensorStreamActivity.isMbPressure())
-		        	// {
-		        	// 	boolean preReady =
-				       //      ( (Math.abs(mPreTime - mAccTime) < mMaxSecDiff) &&
-				       //        (mPreBufferReady == true) );
-		        		
-		        	// 	if (preReady == true) {
-				       //       addSensorToString(mStrBuilder, CSV_ID_PRE, mPreBuffer);
-				       //      mPreBufferReady = false;
-				       //  }
-		        	// }
-		        	// if(SensorStreamActivity.isMbBat_Temp())
-		        	// {
-		        	// 	mStrBuilder.append(String.format(Locale.ENGLISH, ", %d, %d", CSV_ID_BAT_TEMP, ToggleSensorsActivity.getmBattery_Temperature()));
-		        	// }
-		        }
-		  	
-		        
-		        mStrBuilder.insert(0,String.format(Locale.ENGLISH, "%.5f", timestamp_sec));
+//		        		if (gravReady == true) {
+//				             addSensorToString(mStrBuilder, CSV_ID_GRA, mGraBuffer);
+//				            mGraBufferReady = false;
+//				        }
+//		        	}
+//		        }
+
 		        mSensordata = mStrBuilder.toString();
 	          
 		        if(mUDP_SD_Stream.isChecked())
@@ -450,49 +379,6 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 		@Override
 		public void onSensorChanged(SensorEvent event) {
 			double timestamp_sec = event.timestamp * NS2S;
-
-			switch (event.sensor.getType())
-			{
-				// case Sensor.TYPE_ORIENTATION:
-		        	
-		  //       	for(int i=0; i<event.values.length;i++)
-		  //           {
-		  //           	mOriBuffer[i]=event.values[i];
-		  //           }
-		  //       	mOriBufferReady = true;
-		  //           mOriTime = timestamp_sec;
-		  //           break;
-		            
-				case Sensor.TYPE_LINEAR_ACCELERATION:
-		        	
-		        	for(int i=0; i<event.values.length;i++)
-		            {
-		            	mLin_Acc_Buffer[i]=event.values[i];
-		            }
-		        	mLin_Acc_BufferReady = true;
-		            mLin_Acc_Time = timestamp_sec;
-		            break;
-		            
-				case Sensor.TYPE_GRAVITY:
-		        	
-		        	for(int i=0; i<event.values.length;i++)
-		            {
-		            	mGraBuffer[i]=event.values[i];
-		            }
-		        	mGraBufferReady = true;
-		            mGraTime = timestamp_sec;
-		            break;
-		            
-				// case Sensor.TYPE_ROTATION_VECTOR:
-		        	
-		  //       	for(int i=0; i<event.values.length;i++)
-		  //           {
-		  //           	mRot_Vec_Buffer[i]=event.values[i];
-		  //           }
-		  //       	mRot_Vec_BufferReady = true;
-		  //           mRot_Vec_Time = timestamp_sec;
-		  //           break;
-			}
 			
 			
 		}
@@ -690,15 +576,16 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
         // 	e.printStackTrace();
         //     return false;
         // 	}
-        
-        try {
-            SensorStreamActivity.mSensor_Stream.registerListener(myhardwaresensorlistener,
-                    SensorStreamActivity.mSensor_Stream.getDefaultSensor(Sensor.TYPE_GYROSCOPE), SensorStreamActivity.getmDelay());
-            
-        	} catch (Exception e) {
-        	e.printStackTrace();
-            return false;
-        	}
+		if (SensorStreamActivity.isMbChecked_Sensor_Data()) {
+			try {
+				SensorStreamActivity.mSensor_Stream.registerListener(myhardwaresensorlistener,
+						SensorStreamActivity.mSensor_Stream.getDefaultSensor(Sensor.TYPE_GYROSCOPE), SensorStreamActivity.getmDelay());
+
+			} catch (Exception e) {
+				e.printStackTrace();
+				return false;
+			}
+		}
         	
         // try {
         //     SensorStreamActivity.mSensor_Stream.registerListener(myhardwaresensorlistener,
@@ -742,7 +629,7 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 		
 		if(SensorStreamActivity.isMbLin_Acceleration())
 		try {
-			SensorStreamActivity.mSensor_Stream.registerListener(mysoftwarewaresensorlistener, SensorStreamActivity.mSensor_Stream.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION), SensorStreamActivity.getmDelay());
+			SensorStreamActivity.mSensor_Stream.registerListener(myhardwaresensorlistener, SensorStreamActivity.mSensor_Stream.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION), SensorStreamActivity.getmDelay());
 			} catch (Exception e) {
 			e.printStackTrace();
 			return false;
@@ -750,7 +637,7 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 		
 		if(SensorStreamActivity.isMbGravity())
 		try {
-			SensorStreamActivity.mSensor_Stream.registerListener(mysoftwarewaresensorlistener, SensorStreamActivity.mSensor_Stream.getDefaultSensor(Sensor.TYPE_GRAVITY), SensorStreamActivity.getmDelay());
+			SensorStreamActivity.mSensor_Stream.registerListener(myhardwaresensorlistener, SensorStreamActivity.mSensor_Stream.getDefaultSensor(Sensor.TYPE_GRAVITY), SensorStreamActivity.getmDelay());
 			} catch (Exception e) {
 			e.printStackTrace();
 			return false;
@@ -778,6 +665,8 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 	
 		// mAccBufferReady 	= false;
         mGyroBufferReady 	= false;
+		mLin_Acc_BufferReady 	= false;
+		mGraBufferReady 		= false;
         // mMagBufferReady 	= false;
 		// mPreBufferReady 	= false;
 		// ToggleSensorsActivity.setmGps_available(false);
@@ -841,13 +730,13 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 	}
 	
 	private void stop_UDP_Stream()
-	    {
-	    	if (mSocket != null)
-	        	mSocket.close();
-	        mSocket = null;
-	        mPacket = null;
+	{
+		if (mSocket != null)
+	       	mSocket.close();
+	    mSocket = null;
+        mPacket = null;
 	    	
-	    }
+	}
 	
 	private boolean startStreaming()
 	{
@@ -1025,39 +914,17 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 	private static void addSensorToString(StringBuilder strbuilder,
             int sensorid, double ...values ) 
 	{
-		strbuilder.append(String.format(Locale.ENGLISH, ", %d, %7.3f,%7.3f,%7.3f", sensorid, values[0], values[1], values[2]));
-		// if(values.length == 3)
-		// {
-		// 	strbuilder.append(String.format(Locale.ENGLISH, ", %d, %7.3f,%7.3f,%7.3f", sensorid, values[0], values[1], values[2]));
-		// }
+//		strbuilder.append(String.format(Locale.ENGLISH, ", %d, %7.3f,%7.3f,%7.3f", sensorid, values[0], values[1], values[2]));
+		 if(values.length == 3)
+		 {
+		 	strbuilder.append(String.format(Locale.ENGLISH, ", %d, %7.3f,%7.3f,%7.3f", sensorid, values[0], values[1], values[2]));
+		 }
 		
-		// else if (values.length == 1)	
-		// {
-		// 	strbuilder.append(String.format(Locale.ENGLISH, ", %d, %7.3f", sensorid, values[0]));
-		// }
+		 else if (values.length == 1)
+		 {
+		 	strbuilder.append(String.format(Locale.ENGLISH, ", %d, %7.3f", sensorid, values[0]));
+		 }
 	}
-
-	/*
-	private static void addGNSSToString(StringBuilder strbuilder,
-            int sensorid, double [] values ) 
-	{
-		if(sensorid == 1)
-		{
-			strbuilder.insert(0, String.format(Locale.ENGLISH, ", %d, %10.6f,%11.6f,%5.1f", sensorid, values[0], values[1], values[2]));
-		}
-		
-		else if(sensorid == 6)
-		{
-			strbuilder.append(String.format(Locale.ENGLISH, ", %d, %12.3f,%12.3f,%12.3f", sensorid, values[0], values[1], values[2]));
-		}
-		
-		else if(sensorid == 7)
-		{
-			strbuilder.append(String.format(Locale.ENGLISH, ", %d, %6.3f,%6.3f,%6.3f", sensorid, values[0], values[1], values[2]));
-			//strbuilder.append(String.format(Locale.ENGLISH, ", Absolute Speed %.3f", ToggleSensorsActivity.mSpeed));
-		}
-	}
-	*/
 
 	
 	@Override

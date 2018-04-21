@@ -76,10 +76,6 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 	{
 		public void onSensorChanged(SensorEvent event)
 	    {
-	    	for(int i=0; i<event.values.length;i++)
-			{
-				mGyr[i].setText(String.format("%6.3f", event.values[i]));
-			}
 
 			// switch(event.sensor.getType())
 			// {
@@ -115,7 +111,47 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 			// default: {}
 				
 			// }
-	    	
+			switch(event.sensor.getType())
+			{
+				// case Sensor.TYPE_ORIENTATION:
+
+				// 	for(int i=0; i<event.values.length;i++)
+				// 	{
+				// 		mOri[i].setText(String.format("%6.3f", event.values[i]));
+				// 	}
+				// break;
+
+				case Sensor.TYPE_LINEAR_ACCELERATION:
+
+					for(int i=0; i<event.values.length;i++)
+					{
+						mLin_Acc[i].setText(String.format("%6.3f", event.values[i]));
+					}
+					break;
+
+				case Sensor.TYPE_GRAVITY:
+
+					for(int i=0; i<event.values.length;i++)
+					{
+						mGra[i].setText(String.format("%6.3f", event.values[i]));
+					}
+					break;
+
+				// case Sensor.TYPE_ROTATION_VECTOR:
+
+				// 	for(int i=0; i<event.values.length;i++)
+				// 	{
+				// 		mRot_Vec[i].setText(String.format("%6.3f", event.values[i]));
+				// 	}
+				// break;
+				case Sensor.TYPE_GYROSCOPE:
+					for(int i=0; i<event.values.length;i++)
+					{
+						mGyr[i].setText(String.format("%6.3f", event.values[i]));
+					}
+				default: {}
+
+			}
 	    }
 	    
 	    public void onAccuracyChanged(Sensor arg0, int arg1)
@@ -128,43 +164,7 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 	{
 		public void onSensorChanged(SensorEvent event)
 	    {
-			switch(event.sensor.getType())
-			{
-			// case Sensor.TYPE_ORIENTATION:
-				
-			// 	for(int i=0; i<event.values.length;i++)
-			// 	{
-			// 		mOri[i].setText(String.format("%6.3f", event.values[i]));
-			// 	}
-			// break;
-			
-			case Sensor.TYPE_LINEAR_ACCELERATION:
-				
-				for(int i=0; i<event.values.length;i++)
-				{
-					mLin_Acc[i].setText(String.format("%6.3f", event.values[i]));
-				}
-			break;
-			
-			case Sensor.TYPE_GRAVITY:
-				
-				for(int i=0; i<event.values.length;i++)
-				{
-					mGra[i].setText(String.format("%6.3f", event.values[i]));
-				}
-			break;
-			
-			// case Sensor.TYPE_ROTATION_VECTOR:
-				
-			// 	for(int i=0; i<event.values.length;i++)
-			// 	{
-			// 		mRot_Vec[i].setText(String.format("%6.3f", event.values[i]));
-			// 	}
-			// break;
-			
-			default: {}
-			
-			}
+
 	    	
 	    }
 	    
@@ -215,10 +215,19 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 				// 	}
 				// }
 				// else 
-				if(buttonView==mCheckBox_Lin_Acc)
+				if(buttonView==mCheckBox_Gyr)
+				{
+					SensorStreamActivity.setMbgyroscope(true);
+					SensorStreamActivity.mSensor_Toggle.registerListener(myhardwaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_GYROSCOPE), mScreenDelay);
+					for(int i=0; i<3; i++)
+					{
+						mGyr[i].setVisibility(View.VISIBLE);
+					}
+				}
+				else if(buttonView==mCheckBox_Lin_Acc)
 				{
 					SensorStreamActivity.setMbLin_Acceleration(true);
-					SensorStreamActivity.mSensor_Toggle.registerListener(mysoftwarewaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION), mScreenDelay);
+					SensorStreamActivity.mSensor_Toggle.registerListener(myhardwaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION), mScreenDelay);
 					for(int i=0; i<3; i++)
 					{
 						mLin_Acc[i].setVisibility(View.VISIBLE);
@@ -227,7 +236,7 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 				else if(buttonView==mCheckBox_Grav)
 				{
 					SensorStreamActivity.setMbGravity(true);
-					SensorStreamActivity.mSensor_Toggle.registerListener(mysoftwarewaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_GRAVITY), mScreenDelay);
+					SensorStreamActivity.mSensor_Toggle.registerListener(myhardwaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_GRAVITY), mScreenDelay);
 					for(int i=0; i<3; i++)
 					{
 						mGra[i].setVisibility(View.VISIBLE);
@@ -276,11 +285,20 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 				// 		mOri[i].setVisibility(View.INVISIBLE);
 				// 	}
 				// }
-				// else 
-				if(buttonView==mCheckBox_Lin_Acc)
+				// else
+				if(buttonView==mCheckBox_Gyr)
+				{
+					SensorStreamActivity.setMbgyroscope(false);
+					SensorStreamActivity.mSensor_Toggle.unregisterListener(myhardwaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_GYROSCOPE));
+					for(int i=0; i<3; i++)
+					{
+						mGyr[i].setVisibility(View.INVISIBLE);
+					}
+				}
+				else if(buttonView==mCheckBox_Lin_Acc)
 				{
 					SensorStreamActivity.setMbLin_Acceleration(false);
-					SensorStreamActivity.mSensor_Toggle.unregisterListener(mysoftwarewaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION));
+					SensorStreamActivity.mSensor_Toggle.unregisterListener(myhardwaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION));
 					for(int i=0; i<3; i++)
 					{
 						mLin_Acc[i].setVisibility(View.INVISIBLE);
@@ -289,7 +307,7 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 				else if(buttonView==mCheckBox_Grav)
 				{
 					SensorStreamActivity.setMbGravity(false);
-					SensorStreamActivity.mSensor_Toggle.unregisterListener(mysoftwarewaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_GRAVITY));
+					SensorStreamActivity.mSensor_Toggle.unregisterListener(myhardwaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_GRAVITY));
 					for(int i=0; i<3; i++)
 					{
 						mGra[i].setVisibility(View.INVISIBLE);
@@ -442,6 +460,7 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 		
 		// mCheckBox_GPS.setOnCheckedChangeListener(new MyCheckBoxChangeClicker());
 		// mCheckBox_Ori.setOnCheckedChangeListener(new MyCheckBoxChangeClicker());
+		mCheckBox_Gyr.setOnCheckedChangeListener(new MyCheckBoxChangeClicker());
 		mCheckBox_Lin_Acc.setOnCheckedChangeListener(new MyCheckBoxChangeClicker());
 		mCheckBox_Grav.setOnCheckedChangeListener(new MyCheckBoxChangeClicker());
 		// mCheckBox_Rot_Vec.setOnCheckedChangeListener(new MyCheckBoxChangeClicker());
@@ -507,6 +526,11 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 					{
 						mLin_Acc[i].setVisibility(View.VISIBLE);
 					}
+				if(mCheckBox_Gyr.isChecked())
+					for(int i=0; i<mGyr.length;i++)
+					{
+						mGyr[i].setVisibility(View.VISIBLE);
+					}
 				if(mCheckBox_Grav.isChecked())
 					for(int i=0; i<mGra.length;i++)
 					{
@@ -539,7 +563,7 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 		
 			try {
 				if(SensorStreamActivity.isMbLin_Acceleration() || SensorStreamActivity.isMbGravity())
-					SensorStreamActivity.mSensor_Toggle.unregisterListener(mysoftwarewaresensorlist);
+					SensorStreamActivity.mSensor_Toggle.unregisterListener(myhardwaresensorlist);
 				// SensorStreamActivity.isMbOrientation() ||  || SensorStreamActivity.isMbRot_Vector()
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
@@ -584,6 +608,11 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 					for(int i=0; i<mLin_Acc.length;i++)
 					{
 						mLin_Acc[i].setVisibility(View.INVISIBLE);
+					}
+				if(mCheckBox_Gyr.isChecked())
+					for(int i=0; i<mGyr.length;i++)
+					{
+						mGyr[i].setVisibility(View.INVISIBLE);
 					}
 				if(mCheckBox_Grav.isChecked())
 					for(int i=0; i<mGra.length;i++)
@@ -640,7 +669,7 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 			
 			try {
 				if(SensorStreamActivity.isMbLin_Acceleration())
-					SensorStreamActivity.mSensor_Toggle.registerListener(mysoftwarewaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION), mScreenDelay);
+					SensorStreamActivity.mSensor_Toggle.registerListener(myhardwaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION), mScreenDelay);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -648,7 +677,7 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 			
 			try {
 				if(SensorStreamActivity.isMbGravity())
-					SensorStreamActivity.mSensor_Toggle.registerListener(mysoftwarewaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_GRAVITY), mScreenDelay);
+					SensorStreamActivity.mSensor_Toggle.registerListener(myhardwaresensorlist, SensorStreamActivity.mSensor_Toggle.getDefaultSensor(Sensor.TYPE_GRAVITY), mScreenDelay);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

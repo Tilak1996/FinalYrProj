@@ -71,8 +71,8 @@
                 android:id="@+id/CheckBox_Gyr"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:clickable="false"
+                android:checked="false"
+                android:clickable="true"
                 android:gravity="left|center_vertical"
                 android:paddingRight="12dp"
                 android:text="@string/Gyroscope"
@@ -87,7 +87,8 @@
                 android:gravity="center_horizontal"
                 android:text="@string/Zero_Value"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/green" />
+                android:textColor="@color/green"
+                android:visibility="invisible" />
 
 
             <TextView
@@ -98,7 +99,8 @@
                 android:gravity="center_horizontal"
                 android:text="@string/Zero_Value"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/red" />
+                android:textColor="@color/red"
+                android:visibility="invisible" />
 
 
             <TextView
@@ -109,7 +111,8 @@
                 android:gravity="center_horizontal"
                 android:text="@string/Zero_Value"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/blue" />
+                android:textColor="@color/blue"
+                android:visibility="invisible" />
 
         </TableRow>
 

@@ -31,7 +31,7 @@ public class SensorStreamActivity extends TabActivity
 
 		
 		// private static final boolean mbAccelerometer = true;
-		private static final boolean mbGyroscope = true;
+		private static boolean mbGyroscope = false;
 		// private static final boolean mbMagnetometer = true;
 		
 		// private static boolean mGPS = false;
@@ -209,6 +209,9 @@ public class SensorStreamActivity extends TabActivity
 		// }
 		public static boolean isMbgyroscope() {
 			return mbGyroscope;
+		}
+		public static void setMbgyroscope(boolean gyr) {
+			mbGyroscope = gyr;
 		}
 		// public static boolean isMbmagnetometer() {
 		// 	return mbMagnetometer;
