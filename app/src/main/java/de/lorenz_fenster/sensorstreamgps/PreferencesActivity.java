@@ -178,6 +178,7 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 					mGyroBuffer[2] = event.values[2];
 					mGyroBufferReady = true;
 					mGyroTime = timestamp_sec;
+                    break;
 			}
 
 			// switch (event.sensor.getType()) {

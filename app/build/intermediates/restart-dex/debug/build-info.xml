@@ -2,35 +2,71 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="25"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1524318847526"
+    timestamp="1524335216380"
     token="-1747991829846358668"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="363" />
+        duration="2048" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="53" />
+        duration="269" />
     <task
         name="verifier"
-        duration="31" />
+        duration="148" />
 
     <artifact
         location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1524316515751"
+        timestamp="1524335216380"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
@@ -45,9 +81,6 @@
             type="SPLIT" />
         <artifact
             location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -67,22 +100,6 @@
         <artifact
             location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1524317345269"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1524318847526"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>
