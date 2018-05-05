@@ -20,26 +20,27 @@ class TrainSampler:
         # print(self.gyro)
         # print(self.acc)
         # print(self.grav)
-        self.gyro[0].append(sample['4'][0])
-        self.gyro[1].append(sample['4'][1])
-        self.gyro[2].append(sample['4'][2])
+        self.gyro[0].append(sample[4][0])
+        self.gyro[1].append(sample[4][1])
+        self.gyro[2].append(sample[4][2])
         
-        self.acc[0].append(sample['82'][0])
-        self.acc[1].append(sample['82'][1])
-        self.acc[2].append(sample['82'][2])
+        self.acc[0].append(sample[82][0])
+        self.acc[1].append(sample[82][1])
+        self.acc[2].append(sample[82][2])
 
-        self.grav[0].append(sample['83'][0])
-        self.grav[1].append(sample['83'][1])
-        self.grav[2].append(sample['83'][2])
+        self.grav[0].append(sample[83][0])
+        self.grav[1].append(sample[83][1])
+        self.grav[2].append(sample[83][2])
 
         if len(self.gyro[0]) == 128:
             # print(self.gyro)
             # print(self.acc)
             # print(self.grav)
             # Spawn thread for data generation
-            print("len = " + str(len(self.acc[0])))
+            # print("len = " + str(len(self.acc[0])))
             self.captureThread = CaptureThread(self.caller,list(self.gyro),list(self.acc),
             list(self.grav),list(self.extra))
+            # print("Spawn")
             self.captureThread.start()
 
             self.gyro[0] = self.gyro[0][64:]
@@ -53,14 +54,14 @@ class TrainSampler:
             self.grav[0] = self.grav[0][64:]
             self.grav[1] = self.grav[1][64:]
             self.grav[2] = self.grav[2][64:]
-            print("len = " + str(len(self.acc[0])))
+            # print("len = " + str(len(self.acc[0])))
             print(time.clock())
 import numpy as np
-a = np.zeros(4)
-a[0] = 1
-a[1] = -2.5
-a[2] = 3.4
-a[3] = 0
-print(a.conj())
-x = [0,1,2,3]
-print(x[0:-1])
+# a = np.zeros(4)
+# a[0] = 1
+# a[1] = -2.5
+# a[2] = 3.4
+# a[3] = 0
+# print(a.conj())
+# x = [0,1,2,3]
+# print(x[0:-1])

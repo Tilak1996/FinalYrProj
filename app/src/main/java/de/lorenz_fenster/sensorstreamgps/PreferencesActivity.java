@@ -233,21 +233,21 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 					if(SensorStreamActivity.isMbgyroscope()) {
 						for(int i=0; i<3;i++)
 						{
-							ToggleSensorsActivity.mGyr[i].setText(String.format("%6.3f", mGyroBuffer[i]));
+							ToggleSensorsActivity.mGyr[i].setText(String.format("%f", mGyroBuffer[i]));
 						}
 					}
 		    		if(SensorStreamActivity.isMbLin_Acceleration())
 					{
 		    			for(int i=0; i<3;i++)
 		    		    {
-		    	       		ToggleSensorsActivity.mLin_Acc[i].setText(String.format("%6.3f", mLin_Acc_Buffer[i]));
+		    	       		ToggleSensorsActivity.mLin_Acc[i].setText(String.format("%f", mLin_Acc_Buffer[i]));
 		    		    }
 		    		}
 					if(SensorStreamActivity.isMbGravity())
 		    		{
 		    			for(int i=0; i<3;i++)
 		    		    {
-		    	       		ToggleSensorsActivity.mGra[i].setText(String.format("%6.3f", mGraBuffer[i]));
+		    	       		ToggleSensorsActivity.mGra[i].setText(String.format("%f", mGraBuffer[i]));
 		    		    }
 		    		}
 				}
@@ -281,21 +281,21 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 //				}
 				if(SensorStreamActivity.isMbgyroscope()) {
 					if (mGyroBufferReady == true) {
-						mStrBuilder.append(String.format(Locale.ENGLISH, "%.5f", mGyroTime));
+						mStrBuilder.append(String.format(Locale.ENGLISH, "%f", mGyroTime));
 						addSensorToString(mStrBuilder, CSV_ID_GYROSCOPE, mGyroBuffer);
 						mGyroBufferReady = false;
 					}
 				}
 				if(SensorStreamActivity.isMbGravity()) {
 					if (mGraBufferReady == true) {
-						mStrBuilder.append(String.format(Locale.ENGLISH, "%.5f", mGraTime));
+						mStrBuilder.append(String.format(Locale.ENGLISH, "%f", mGraTime));
 						addSensorToString(mStrBuilder, CSV_ID_GRA, mGraBuffer);
 						mGraBufferReady = false;
 					}
 				}
 				if(SensorStreamActivity.isMbLin_Acceleration()) {
 					if (mLin_Acc_BufferReady == true) {
-						mStrBuilder.append(String.format(Locale.ENGLISH, "%.5f", mLin_Acc_Time));
+						mStrBuilder.append(String.format(Locale.ENGLISH, "%f", mLin_Acc_Time));
 						addSensorToString(mStrBuilder, CSV_ID_LIN_ACC, mLin_Acc_Buffer);
 						mLin_Acc_BufferReady = false;
 					}
@@ -918,12 +918,12 @@ public class PreferencesActivity extends Activity implements  OnItemSelectedList
 //		strbuilder.append(String.format(Locale.ENGLISH, ", %d, %7.3f,%7.3f,%7.3f", sensorid, values[0], values[1], values[2]));
 		 if(values.length == 3)
 		 {
-		 	strbuilder.append(String.format(Locale.ENGLISH, ", %d, %7.3f,%7.3f,%7.3f", sensorid, values[0], values[1], values[2]));
+		 	strbuilder.append(String.format(Locale.ENGLISH, ", %d, %f,%f,%f", sensorid, values[0], values[1], values[2]));
 		 }
 		
 		 else if (values.length == 1)
 		 {
-		 	strbuilder.append(String.format(Locale.ENGLISH, ", %d, %7.3f", sensorid, values[0]));
+		 	strbuilder.append(String.format(Locale.ENGLISH, ", %d, %f", sensorid, values[0]));
 		 }
 	}
 

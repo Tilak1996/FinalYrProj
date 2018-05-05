@@ -716,11 +716,11 @@ public class ToggleSensorsActivity extends Activity //implements LocationListene
 	protected void onStop() {
 		// TODO Auto-generated method stub
 		super.onStop();
-		// if (SensorStreamActivity.ismGPS() == true && SensorStreamActivity.ismRun_in_Background()== false)
-		// {
-		// 	mCheckBox_GPS.setChecked(false);
-		// 	mCheckBox_Bat_Temp.setChecked(false);
-		// }
+//		 if (SensorStreamActivity.ismGPS() == true && SensorStreamActivity.ismRun_in_Background()== false)
+//		 {
+//		 	mCheckBox_GPS.setChecked(false);
+//		 	mCheckBox_Bat_Temp.setChecked(false);
+//		 }
 			
 		
 		//Log.d(MDEBUG_TAG, getLocalClassName()+ " .onStop aufgerufen");

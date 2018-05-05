@@ -6,23 +6,20 @@ from matplotlib import animation
 import socket, traceback
 import threading, time, os
 
-class TrainerMainModel(threading.Thread):
+class TrainerMainModel:
 
     host = ''
     port = 5555
     samp = {
-        '4': [],
-        '82': [],
-        '83': []
+        4: [],
+        82: [],
+        83: []
     }
     execute = True
     subject = 0
     act = 1
 
     def __init__(self):
-        super(TrainerMainModel,self).__init__()
-        # self.readingCounter = 0
-        # self.resultListY = []
         q = []
         self.cols = pd.read_csv("colums.csv")
         self.myDataset = pd.DataFrame(columns=self.cols['0'].tolist())
@@ -44,32 +41,33 @@ class TrainerMainModel(threading.Thread):
         for i in range(0,3):
             message, address = self.s.recvfrom(8192)
             message = str(message)
-            message = message[2:len(message)-1].split(", ")
+            message = message[2:len(message)-1].split(",")
             q.append(message)
 
-        while q[0][0] != q[1][0]:
+        while float(q[0][0]) != float(q[1][0]):
             message, address = self.s.recvfrom(8192)
             message = str(message)
-            message = message[2:len(message)-1].split(", ")
+            message = message[2:len(message)-1].split(",")
             q.append(message)
             q.remove(q[0])
 
-    def run(self):
+    def start(self):
         while self.execute:
             try:
                 for i in range(0,3):
                     message, address = self.s.recvfrom(8192)
                     message = str(message)
-                    message = message[2:len(message)-1].split(", ")
+                    message = message[2:len(message)-1].split(",")
                     # print(message)
                     message[0] = float(message[0])
-                    # message[1] = int(message[1])
+                    message[1] = int(message[1])
                     message[2] = float(message[2])
                     message[3] = float(message[3])
                     message[4] = float(message[4])
                     # print(message)
                     self.samp[message[1]] = message[2:]
                 self.sampler.add(self.samp)
+                # print(self.samp)
             except (KeyboardInterrupt, SystemExit):
                 raise
             except:
@@ -85,7 +83,7 @@ if __name__ == "__main__":
     try:
         myModel = TrainerMainModel()
         myModel.start()
-        time.sleep(100000)
+        # time.sleep(100000)
         # input()
     except (KeyboardInterrupt):
         # print("KeyBoardInterrupt")

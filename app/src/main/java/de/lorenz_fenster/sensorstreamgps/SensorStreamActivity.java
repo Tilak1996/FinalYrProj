@@ -44,7 +44,7 @@ public class SensorStreamActivity extends TabActivity
 		
 		private static boolean mbChecked_Sensor_Data=false;
 		
-		private static boolean mRun_in_Background = false;
+		private static boolean mRun_in_Background = true;
 		
 		
 		TabHost mTabHost;
