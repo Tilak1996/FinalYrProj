@@ -2,40 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\hp\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_f99aaa70e93809d496a948622d7f36471fd9560b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\libs\sensorsimulator-lib-2.0-rc1.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="2b4dfb2303cd9ab2004521a362d2a4a33ef35ba5">
-        <dex dex="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\transforms\dex\debug\folders\1000\2\sensorsimulator-lib-2.0-rc1_82d71cd7a862156116791dafba6e22e5e5dec847\classes.dex" />
+        <dex dex="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\pre-dexed\debug\sensorsimulator-lib-2.0-rc1_82d71cd7a862156116791dafba6e22e5e5dec847.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\hp\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="0ef3cc2561ea3829d2b02f310ec26784b3629df1">
-        <dex dex="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_86fa4d8ad0b49e50dc491205f92658a4e84bcf16\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_dc2ec68a766a822e456efadaf2e8e2690bafe515\classes.dex" />
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\sensordatacollector\de.lorenz_fenster.SensorStream_IMU_GPS\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_f99aaa70e93809d496a948622d7f36471fd9560b.jar" />
     </item>
 
 </items>

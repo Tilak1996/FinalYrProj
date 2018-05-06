@@ -19,10 +19,9 @@ class TrainerMainModel:
     subject = 0
     act = 1
 
-    def __init__(self):
+    def __init__(self,myDataset):
         q = []
-        self.cols = pd.read_csv("colums.csv")
-        self.myDataset = pd.DataFrame(columns=self.cols['0'].tolist())
+        self.myDataset = myDataset
         self.pointCount = 0
 
         # Ask for subject and activity
@@ -80,22 +79,29 @@ class TrainerMainModel:
             
 
 if __name__ == "__main__":
-    try:
-        myModel = TrainerMainModel()
-        myModel.start()
-        # time.sleep(100000)
-        # input()
-    except (KeyboardInterrupt):
-        # print("KeyBoardInterrupt")
-        myModel.execute = False
-        file_path = "datasets/" + str(myModel.subject) + "/"
+    opt = 1
+    cols = pd.read_csv("colums.csv")
+    myDataCol = pd.DataFrame(columns=cols['0'].tolist())
+    while opt == 1:
         try:
-            if not os.path.exists(file_path):
-                os.makedirs(file_path)
-        except OSError:
-            print("Error in creating directories!!")
-        print("Saving dataset...")
-        myModel.myDataset.to_csv(file_path + myModel.act + ".csv")
+            myModel = TrainerMainModel(myDataCol)
+            myModel.start()
+            time.sleep(100000)
+            # input()
+        except (KeyboardInterrupt):
+            # print("KeyBoardInterrupt")
+            myModel.execute = False
+            file_path = "datasets/" + str(myModel.subject) + "/"
+            try:
+                if not os.path.exists(file_path):
+                    os.makedirs(file_path)
+            except OSError:
+                print("Error in creating directories!!")
+            print("Saving dataset...")
+            myModel.myDataset.to_csv(file_path + myModel.act + ".csv")
+            myModel.s.close()
+        print("Do you want to continue data gathering?(1-Yes/0-No) ")
+        opt = int(input())
 
 # fig = plt.figure()
 # ax1 = fig.add_subplot(1,1,1)

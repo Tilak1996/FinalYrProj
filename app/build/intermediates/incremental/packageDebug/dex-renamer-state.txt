@@ -1,7 +1,4 @@
-#Sat Apr 21 18:59:08 IST 2018
-base.0=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_dc2ec68a766a822e456efadaf2e8e2690bafe515
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_86fa4d8ad0b49e50dc491205f92658a4e84bcf16\\classes.dex
-base.1=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_86fa4d8ad0b49e50dc491205f92658a4e84bcf16
-file.0=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_dc2ec68a766a822e456efadaf2e8e2690bafe515\\classes.dex
+#Sun May 06 17:27:16 IST 2018
+base.0=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\sensordatacollector\\de.lorenz_fenster.SensorStream_IMU_GPS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

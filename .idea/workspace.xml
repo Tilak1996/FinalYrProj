@@ -7,42 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba6039f0-debc-4048-8943-95721fb2b15e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1/LAYINGx.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1/LAYINGy.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1/SITTINGx.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1/SITTINGy.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1/STANDINGx.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1/STANDINGy.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/2/SITTING.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_f99aaa70e93809d496a948622d7f36471fd9560b/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_86fa4d8ad0b49e50dc491205f92658a4e84bcf16/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_dc2ec68a766a822e456efadaf2e8e2690bafe515/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/2/sensorsimulator-lib-2.0-rc1_82d71cd7a862156116791dafba6e22e5e5dec847/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1x/LAYINGx.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1x/LAYINGy.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1x/SITTINGx.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1x/SITTINGy.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1x/STANDINGx.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/1x/STANDINGy.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/2x/SITTING.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/2x/TRIAL.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python/datasets/2x/sgfgsfd.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/de/lorenz_fenster/sensorstreamgps/PreferencesActivity$My_Hardware_SensorListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/de/lorenz_fenster/sensorstreamgps/PreferencesActivity$My_Hardware_SensorListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/de/lorenz_fenster/sensorstreamgps/PreferencesActivity$My_Hardware_SensorListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/de/lorenz_fenster/sensorstreamgps/PreferencesActivity$My_Hardware_SensorListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/r4JL+LyOXjoBGl98pmXdrv4h5v4=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/r4JL+LyOXjoBGl98pmXdrv4h5v4=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/de/lorenz_fenster/sensorstreamgps/PreferencesActivity$My_Hardware_SensorListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/de/lorenz_fenster/sensorstreamgps/PreferencesActivity$My_Hardware_SensorListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/de/lorenz_fenster/sensorstreamgps/PreferencesActivity$My_Hardware_SensorListener.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/de/lorenz_fenster/sensorstreamgps/PreferencesActivity$My_Hardware_SensorListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/ToggleSensorsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/ToggleSensorsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/Sampler.py" afterPath="$PROJECT_DIR$/python/Sampler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/TrainerMain.py" afterPath="$PROJECT_DIR$/python/TrainerMain.py" />
     </list>
     <ignored path="de.lorenz_fenster.SensorStream_IMU_GPS.iws" />
@@ -79,8 +78,8 @@
       <file leaf-file-name="PreferencesActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1663">
-              <caret line="474" column="62" selection-start-line="474" selection-start-column="44" selection-end-line="474" selection-end-column="62" />
+            <state relative-caret-position="17">
+              <caret line="341" column="45" selection-start-line="341" selection-start-column="45" selection-end-line="341" selection-end-column="45" />
               <folding>
                 <element signature="e#1404#1429#0" expanded="false" />
                 <element signature="e#1871#1924#0" expanded="false" />
@@ -95,7 +94,6 @@
                 <element signature="e#11389#11426#0" expanded="false" />
                 <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
                 <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-                <element signature="e#15374#15375#0" expanded="true" />
                 <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
                 <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
                 <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -105,40 +103,13 @@
                 <element signature="e#17716#17724#0" expanded="false" />
                 <element signature="e#18808#18854#0" expanded="false" />
                 <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-                <element signature="e#20994#21020#0" expanded="true" />
-                <element signature="e#21259#21285#0" expanded="true" />
-                <element signature="e#21511#21534#0" expanded="true" />
-                <element signature="e#21889#21912#0" expanded="true" />
                 <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
                 <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-                <element signature="e#22463#22485#0" expanded="true" />
-                <element signature="e#22917#22939#0" expanded="true" />
-                <element signature="e#23467#23493#0" expanded="true" />
-                <element signature="e#23864#23890#0" expanded="true" />
-                <element signature="e#24253#24280#0" expanded="true" />
                 <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-                <element signature="e#24409#24429#0" expanded="true" />
                 <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
                 <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
                 <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
                 <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-                <element signature="e#27765#28504#0" expanded="true" />
-                <element signature="e#28503#28504#0" expanded="true" />
-                <element signature="e#28588#28614#0" expanded="true" />
-                <element signature="e#28809#28988#0" expanded="true" />
-                <element signature="e#28987#28988#0" expanded="true" />
-                <element signature="e#29119#29145#0" expanded="true" />
-                <element signature="e#29338#29517#0" expanded="true" />
-                <element signature="e#29516#29517#0" expanded="true" />
-                <element signature="e#29648#29671#0" expanded="true" />
-                <element signature="e#29864#30043#0" expanded="true" />
-                <element signature="e#30042#30043#0" expanded="true" />
-                <element signature="e#30174#30200#0" expanded="true" />
-                <element signature="e#30386#30565#0" expanded="true" />
-                <element signature="e#30564#30565#0" expanded="true" />
-                <element signature="e#30676#30698#0" expanded="true" />
-                <element signature="e#30885#31064#0" expanded="true" />
-                <element signature="e#31063#31064#0" expanded="true" />
                 <element signature="e#31295#31296#0" expanded="true" />
                 <element signature="e#31323#31324#0" expanded="true" />
                 <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
@@ -150,30 +121,9 @@
       <file leaf-file-name="SensorStreamActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="3978">
               <caret line="262" column="37" selection-start-line="262" selection-start-column="19" selection-end-line="262" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#4640#4641#0" expanded="false" />
-                <element signature="e#4674#4675#0" expanded="false" />
-                <element signature="e#4856#4857#0" expanded="false" />
-                <element signature="e#4881#4882#0" expanded="false" />
-                <element signature="e#4936#4937#0" expanded="false" />
-                <element signature="e#4987#4988#0" expanded="false" />
-                <element signature="e#5718#5719#0" expanded="false" />
-                <element signature="e#5745#5746#0" expanded="false" />
-                <element signature="e#5796#5797#0" expanded="false" />
-                <element signature="e#5822#5823#0" expanded="false" />
-                <element signature="e#6009#6010#0" expanded="false" />
-                <element signature="e#6054#6055#0" expanded="false" />
-                <element signature="e#6107#6108#0" expanded="false" />
-                <element signature="e#6144#6145#0" expanded="false" />
-                <element signature="e#6458#6459#0" expanded="false" />
-                <element signature="e#6484#6485#0" expanded="false" />
-                <element signature="e#6534#6535#0" expanded="false" />
-                <element signature="e#6568#6569#0" expanded="false" />
-                <element signature="e#6909#6910#0" expanded="false" />
-                <element signature="e#6943#6944#0" expanded="false" />
                 <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
               </folding>
             </state>
@@ -183,7 +133,7 @@
       <file leaf-file-name="ToggleSensorsActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/ToggleSensorsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="8619">
               <caret line="718" column="95" selection-start-line="718" selection-start-column="75" selection-end-line="718" selection-end-column="95" />
               <folding>
                 <element signature="e#1367#1416#0" expanded="false" />
@@ -216,7 +166,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="1819">
               <caret line="107" column="48" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="48" />
               <folding />
             </state>
@@ -229,7 +179,7 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="354">
+            <state relative-caret-position="1326">
               <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
               <folding>
                 <element signature="e#4578#4963#0" expanded="false" />
@@ -1938,95 +1888,17 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.lorenz_fenster.SensorStream_IMU_GPS" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.lorenz_fenster.SensorStream_IMU_GPS" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.lorenz_fenster.SensorStream_IMU_GPS" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.lorenz_fenster.SensorStream_IMU_GPS" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensorstreamgps" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de.lorenz_fenster.SensorStream_IMU_GPS" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="1d569ca87d83" />
+    <property name="device.picker.selection" value="ZX1D62FTKM" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2367,18 +2239,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2388,8 +2259,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2403,6 +2274,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2450,7 +2322,6 @@
             <element signature="e#11389#11426#0" expanded="false" />
             <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="true" />
             <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -2460,40 +2331,13 @@
             <element signature="e#17716#17724#0" expanded="false" />
             <element signature="e#18808#18854#0" expanded="false" />
             <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#20994#21020#0" expanded="true" />
-            <element signature="e#21259#21285#0" expanded="true" />
-            <element signature="e#21511#21534#0" expanded="true" />
-            <element signature="e#21889#21912#0" expanded="true" />
             <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#22463#22485#0" expanded="true" />
-            <element signature="e#22917#22939#0" expanded="true" />
-            <element signature="e#23467#23493#0" expanded="true" />
-            <element signature="e#23864#23890#0" expanded="true" />
-            <element signature="e#24253#24280#0" expanded="true" />
             <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#24409#24429#0" expanded="true" />
             <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#27765#28504#0" expanded="true" />
-            <element signature="e#28503#28504#0" expanded="true" />
-            <element signature="e#28588#28614#0" expanded="true" />
-            <element signature="e#28809#28988#0" expanded="true" />
-            <element signature="e#28987#28988#0" expanded="true" />
-            <element signature="e#29119#29145#0" expanded="true" />
-            <element signature="e#29338#29517#0" expanded="true" />
-            <element signature="e#29516#29517#0" expanded="true" />
-            <element signature="e#29648#29671#0" expanded="true" />
-            <element signature="e#29864#30043#0" expanded="true" />
-            <element signature="e#30042#30043#0" expanded="true" />
-            <element signature="e#30174#30200#0" expanded="true" />
-            <element signature="e#30386#30565#0" expanded="true" />
-            <element signature="e#30564#30565#0" expanded="true" />
-            <element signature="e#30676#30698#0" expanded="true" />
-            <element signature="e#30885#31064#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
             <element signature="e#31295#31296#0" expanded="true" />
             <element signature="e#31323#31324#0" expanded="true" />
             <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
@@ -2505,7 +2349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2514,27 +2357,6 @@
         <state relative-caret-position="3536">
           <caret line="231" column="43" selection-start-line="231" selection-start-column="43" selection-end-line="231" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4640#4641#0" expanded="false" />
-            <element signature="e#4674#4675#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-            <element signature="e#4881#4882#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5718#5719#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5796#5797#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6054#6055#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6144#6145#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#6484#6485#0" expanded="false" />
-            <element signature="e#6534#6535#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6909#6910#0" expanded="false" />
-            <element signature="e#6943#6944#0" expanded="false" />
             <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
           </folding>
         </state>
@@ -2599,7 +2421,6 @@
             <element signature="e#11389#11426#0" expanded="false" />
             <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="true" />
             <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -2609,40 +2430,13 @@
             <element signature="e#17716#17724#0" expanded="false" />
             <element signature="e#18808#18854#0" expanded="false" />
             <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#20994#21020#0" expanded="true" />
-            <element signature="e#21259#21285#0" expanded="true" />
-            <element signature="e#21511#21534#0" expanded="true" />
-            <element signature="e#21889#21912#0" expanded="true" />
             <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#22463#22485#0" expanded="true" />
-            <element signature="e#22917#22939#0" expanded="true" />
-            <element signature="e#23467#23493#0" expanded="true" />
-            <element signature="e#23864#23890#0" expanded="true" />
-            <element signature="e#24253#24280#0" expanded="true" />
             <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#24409#24429#0" expanded="true" />
             <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#27765#28504#0" expanded="true" />
-            <element signature="e#28503#28504#0" expanded="true" />
-            <element signature="e#28588#28614#0" expanded="true" />
-            <element signature="e#28809#28988#0" expanded="true" />
-            <element signature="e#28987#28988#0" expanded="true" />
-            <element signature="e#29119#29145#0" expanded="true" />
-            <element signature="e#29338#29517#0" expanded="true" />
-            <element signature="e#29516#29517#0" expanded="true" />
-            <element signature="e#29648#29671#0" expanded="true" />
-            <element signature="e#29864#30043#0" expanded="true" />
-            <element signature="e#30042#30043#0" expanded="true" />
-            <element signature="e#30174#30200#0" expanded="true" />
-            <element signature="e#30386#30565#0" expanded="true" />
-            <element signature="e#30564#30565#0" expanded="true" />
-            <element signature="e#30676#30698#0" expanded="true" />
-            <element signature="e#30885#31064#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
             <element signature="e#31295#31296#0" expanded="true" />
             <element signature="e#31323#31324#0" expanded="true" />
             <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
@@ -2655,27 +2449,6 @@
         <state relative-caret-position="561">
           <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4640#4641#0" expanded="false" />
-            <element signature="e#4674#4675#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-            <element signature="e#4881#4882#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5718#5719#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5796#5797#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6054#6055#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6144#6145#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#6484#6485#0" expanded="false" />
-            <element signature="e#6534#6535#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6909#6910#0" expanded="false" />
-            <element signature="e#6943#6944#0" expanded="false" />
             <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
           </folding>
         </state>
@@ -2740,7 +2513,6 @@
             <element signature="e#11389#11426#0" expanded="false" />
             <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="true" />
             <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -2750,40 +2522,13 @@
             <element signature="e#17716#17724#0" expanded="false" />
             <element signature="e#18808#18854#0" expanded="false" />
             <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#20994#21020#0" expanded="true" />
-            <element signature="e#21259#21285#0" expanded="true" />
-            <element signature="e#21511#21534#0" expanded="true" />
-            <element signature="e#21889#21912#0" expanded="true" />
             <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#22463#22485#0" expanded="true" />
-            <element signature="e#22917#22939#0" expanded="true" />
-            <element signature="e#23467#23493#0" expanded="true" />
-            <element signature="e#23864#23890#0" expanded="true" />
-            <element signature="e#24253#24280#0" expanded="true" />
             <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#24409#24429#0" expanded="true" />
             <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#27765#28504#0" expanded="true" />
-            <element signature="e#28503#28504#0" expanded="true" />
-            <element signature="e#28588#28614#0" expanded="true" />
-            <element signature="e#28809#28988#0" expanded="true" />
-            <element signature="e#28987#28988#0" expanded="true" />
-            <element signature="e#29119#29145#0" expanded="true" />
-            <element signature="e#29338#29517#0" expanded="true" />
-            <element signature="e#29516#29517#0" expanded="true" />
-            <element signature="e#29648#29671#0" expanded="true" />
-            <element signature="e#29864#30043#0" expanded="true" />
-            <element signature="e#30042#30043#0" expanded="true" />
-            <element signature="e#30174#30200#0" expanded="true" />
-            <element signature="e#30386#30565#0" expanded="true" />
-            <element signature="e#30564#30565#0" expanded="true" />
-            <element signature="e#30676#30698#0" expanded="true" />
-            <element signature="e#30885#31064#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
             <element signature="e#31295#31296#0" expanded="true" />
             <element signature="e#31323#31324#0" expanded="true" />
             <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
@@ -2796,27 +2541,6 @@
         <state relative-caret-position="3604">
           <caret line="212" column="41" selection-start-line="212" selection-start-column="41" selection-end-line="212" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4640#4641#0" expanded="false" />
-            <element signature="e#4674#4675#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-            <element signature="e#4881#4882#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5718#5719#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5796#5797#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6054#6055#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6144#6145#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#6484#6485#0" expanded="false" />
-            <element signature="e#6534#6535#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6909#6910#0" expanded="false" />
-            <element signature="e#6943#6944#0" expanded="false" />
             <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
           </folding>
         </state>
@@ -2868,7 +2592,6 @@
             <element signature="e#11389#11426#0" expanded="false" />
             <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="true" />
             <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -2878,40 +2601,13 @@
             <element signature="e#17716#17724#0" expanded="false" />
             <element signature="e#18808#18854#0" expanded="false" />
             <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#20994#21020#0" expanded="true" />
-            <element signature="e#21259#21285#0" expanded="true" />
-            <element signature="e#21511#21534#0" expanded="true" />
-            <element signature="e#21889#21912#0" expanded="true" />
             <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#22463#22485#0" expanded="true" />
-            <element signature="e#22917#22939#0" expanded="true" />
-            <element signature="e#23467#23493#0" expanded="true" />
-            <element signature="e#23864#23890#0" expanded="true" />
-            <element signature="e#24253#24280#0" expanded="true" />
             <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#24409#24429#0" expanded="true" />
             <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#27765#28504#0" expanded="true" />
-            <element signature="e#28503#28504#0" expanded="true" />
-            <element signature="e#28588#28614#0" expanded="true" />
-            <element signature="e#28809#28988#0" expanded="true" />
-            <element signature="e#28987#28988#0" expanded="true" />
-            <element signature="e#29119#29145#0" expanded="true" />
-            <element signature="e#29338#29517#0" expanded="true" />
-            <element signature="e#29516#29517#0" expanded="true" />
-            <element signature="e#29648#29671#0" expanded="true" />
-            <element signature="e#29864#30043#0" expanded="true" />
-            <element signature="e#30042#30043#0" expanded="true" />
-            <element signature="e#30174#30200#0" expanded="true" />
-            <element signature="e#30386#30565#0" expanded="true" />
-            <element signature="e#30564#30565#0" expanded="true" />
-            <element signature="e#30676#30698#0" expanded="true" />
-            <element signature="e#30885#31064#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
             <element signature="e#31295#31296#0" expanded="true" />
             <element signature="e#31323#31324#0" expanded="true" />
             <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
@@ -2924,27 +2620,6 @@
         <state relative-caret-position="238">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4640#4641#0" expanded="false" />
-            <element signature="e#4674#4675#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-            <element signature="e#4881#4882#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5718#5719#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5796#5797#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6054#6055#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6144#6145#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#6484#6485#0" expanded="false" />
-            <element signature="e#6534#6535#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6909#6910#0" expanded="false" />
-            <element signature="e#6943#6944#0" expanded="false" />
             <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
           </folding>
         </state>
@@ -2996,7 +2671,6 @@
             <element signature="e#11389#11426#0" expanded="false" />
             <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="true" />
             <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -3006,40 +2680,13 @@
             <element signature="e#17716#17724#0" expanded="false" />
             <element signature="e#18808#18854#0" expanded="false" />
             <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#20994#21020#0" expanded="true" />
-            <element signature="e#21259#21285#0" expanded="true" />
-            <element signature="e#21511#21534#0" expanded="true" />
-            <element signature="e#21889#21912#0" expanded="true" />
             <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#22463#22485#0" expanded="true" />
-            <element signature="e#22917#22939#0" expanded="true" />
-            <element signature="e#23467#23493#0" expanded="true" />
-            <element signature="e#23864#23890#0" expanded="true" />
-            <element signature="e#24253#24280#0" expanded="true" />
             <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#24409#24429#0" expanded="true" />
             <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#27765#28504#0" expanded="true" />
-            <element signature="e#28503#28504#0" expanded="true" />
-            <element signature="e#28588#28614#0" expanded="true" />
-            <element signature="e#28809#28988#0" expanded="true" />
-            <element signature="e#28987#28988#0" expanded="true" />
-            <element signature="e#29119#29145#0" expanded="true" />
-            <element signature="e#29338#29517#0" expanded="true" />
-            <element signature="e#29516#29517#0" expanded="true" />
-            <element signature="e#29648#29671#0" expanded="true" />
-            <element signature="e#29864#30043#0" expanded="true" />
-            <element signature="e#30042#30043#0" expanded="true" />
-            <element signature="e#30174#30200#0" expanded="true" />
-            <element signature="e#30386#30565#0" expanded="true" />
-            <element signature="e#30564#30565#0" expanded="true" />
-            <element signature="e#30676#30698#0" expanded="true" />
-            <element signature="e#30885#31064#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
             <element signature="e#31295#31296#0" expanded="true" />
             <element signature="e#31323#31324#0" expanded="true" />
             <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
@@ -3052,27 +2699,6 @@
         <state relative-caret-position="238">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4640#4641#0" expanded="false" />
-            <element signature="e#4674#4675#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-            <element signature="e#4881#4882#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5718#5719#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5796#5797#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6054#6055#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6144#6145#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#6484#6485#0" expanded="false" />
-            <element signature="e#6534#6535#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6909#6910#0" expanded="false" />
-            <element signature="e#6943#6944#0" expanded="false" />
             <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
           </folding>
         </state>
@@ -3151,7 +2777,6 @@
             <element signature="e#11389#11426#0" expanded="false" />
             <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="true" />
             <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -3161,40 +2786,13 @@
             <element signature="e#17716#17724#0" expanded="false" />
             <element signature="e#18808#18854#0" expanded="false" />
             <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#20994#21020#0" expanded="true" />
-            <element signature="e#21259#21285#0" expanded="true" />
-            <element signature="e#21511#21534#0" expanded="true" />
-            <element signature="e#21889#21912#0" expanded="true" />
             <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#22463#22485#0" expanded="true" />
-            <element signature="e#22917#22939#0" expanded="true" />
-            <element signature="e#23467#23493#0" expanded="true" />
-            <element signature="e#23864#23890#0" expanded="true" />
-            <element signature="e#24253#24280#0" expanded="true" />
             <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#24409#24429#0" expanded="true" />
             <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#27765#28504#0" expanded="true" />
-            <element signature="e#28503#28504#0" expanded="true" />
-            <element signature="e#28588#28614#0" expanded="true" />
-            <element signature="e#28809#28988#0" expanded="true" />
-            <element signature="e#28987#28988#0" expanded="true" />
-            <element signature="e#29119#29145#0" expanded="true" />
-            <element signature="e#29338#29517#0" expanded="true" />
-            <element signature="e#29516#29517#0" expanded="true" />
-            <element signature="e#29648#29671#0" expanded="true" />
-            <element signature="e#29864#30043#0" expanded="true" />
-            <element signature="e#30042#30043#0" expanded="true" />
-            <element signature="e#30174#30200#0" expanded="true" />
-            <element signature="e#30386#30565#0" expanded="true" />
-            <element signature="e#30564#30565#0" expanded="true" />
-            <element signature="e#30676#30698#0" expanded="true" />
-            <element signature="e#30885#31064#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
             <element signature="e#31295#31296#0" expanded="true" />
             <element signature="e#31323#31324#0" expanded="true" />
             <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
@@ -3207,27 +2805,6 @@
         <state relative-caret-position="459">
           <caret line="27" column="22" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4640#4641#0" expanded="false" />
-            <element signature="e#4674#4675#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-            <element signature="e#4881#4882#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5718#5719#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5796#5797#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6054#6055#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6144#6145#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#6484#6485#0" expanded="false" />
-            <element signature="e#6534#6535#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6909#6910#0" expanded="false" />
-            <element signature="e#6943#6944#0" expanded="false" />
             <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
           </folding>
         </state>
@@ -3313,7 +2890,6 @@
             <element signature="e#11389#11426#0" expanded="false" />
             <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="true" />
             <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -3323,40 +2899,13 @@
             <element signature="e#17716#17724#0" expanded="false" />
             <element signature="e#18808#18854#0" expanded="false" />
             <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#20994#21020#0" expanded="true" />
-            <element signature="e#21259#21285#0" expanded="true" />
-            <element signature="e#21511#21534#0" expanded="true" />
-            <element signature="e#21889#21912#0" expanded="true" />
             <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#22463#22485#0" expanded="true" />
-            <element signature="e#22917#22939#0" expanded="true" />
-            <element signature="e#23467#23493#0" expanded="true" />
-            <element signature="e#23864#23890#0" expanded="true" />
-            <element signature="e#24253#24280#0" expanded="true" />
             <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#24409#24429#0" expanded="true" />
             <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#27765#28504#0" expanded="true" />
-            <element signature="e#28503#28504#0" expanded="true" />
-            <element signature="e#28588#28614#0" expanded="true" />
-            <element signature="e#28809#28988#0" expanded="true" />
-            <element signature="e#28987#28988#0" expanded="true" />
-            <element signature="e#29119#29145#0" expanded="true" />
-            <element signature="e#29338#29517#0" expanded="true" />
-            <element signature="e#29516#29517#0" expanded="true" />
-            <element signature="e#29648#29671#0" expanded="true" />
-            <element signature="e#29864#30043#0" expanded="true" />
-            <element signature="e#30042#30043#0" expanded="true" />
-            <element signature="e#30174#30200#0" expanded="true" />
-            <element signature="e#30386#30565#0" expanded="true" />
-            <element signature="e#30564#30565#0" expanded="true" />
-            <element signature="e#30676#30698#0" expanded="true" />
-            <element signature="e#30885#31064#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
             <element signature="e#31295#31296#0" expanded="true" />
             <element signature="e#31323#31324#0" expanded="true" />
             <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
@@ -3369,27 +2918,6 @@
         <state relative-caret-position="272">
           <caret line="212" column="41" selection-start-line="212" selection-start-column="27" selection-end-line="212" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4640#4641#0" expanded="false" />
-            <element signature="e#4674#4675#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-            <element signature="e#4881#4882#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5718#5719#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5796#5797#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6054#6055#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6144#6145#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#6484#6485#0" expanded="false" />
-            <element signature="e#6534#6535#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6909#6910#0" expanded="false" />
-            <element signature="e#6943#6944#0" expanded="false" />
             <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
           </folding>
         </state>
@@ -3441,7 +2969,6 @@
             <element signature="e#11389#11426#0" expanded="false" />
             <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="true" />
             <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -3451,40 +2978,13 @@
             <element signature="e#17716#17724#0" expanded="false" />
             <element signature="e#18808#18854#0" expanded="false" />
             <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#20994#21020#0" expanded="true" />
-            <element signature="e#21259#21285#0" expanded="true" />
-            <element signature="e#21511#21534#0" expanded="true" />
-            <element signature="e#21889#21912#0" expanded="true" />
             <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#22463#22485#0" expanded="true" />
-            <element signature="e#22917#22939#0" expanded="true" />
-            <element signature="e#23467#23493#0" expanded="true" />
-            <element signature="e#23864#23890#0" expanded="true" />
-            <element signature="e#24253#24280#0" expanded="true" />
             <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#24409#24429#0" expanded="true" />
             <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#27765#28504#0" expanded="true" />
-            <element signature="e#28503#28504#0" expanded="true" />
-            <element signature="e#28588#28614#0" expanded="true" />
-            <element signature="e#28809#28988#0" expanded="true" />
-            <element signature="e#28987#28988#0" expanded="true" />
-            <element signature="e#29119#29145#0" expanded="true" />
-            <element signature="e#29338#29517#0" expanded="true" />
-            <element signature="e#29516#29517#0" expanded="true" />
-            <element signature="e#29648#29671#0" expanded="true" />
-            <element signature="e#29864#30043#0" expanded="true" />
-            <element signature="e#30042#30043#0" expanded="true" />
-            <element signature="e#30174#30200#0" expanded="true" />
-            <element signature="e#30386#30565#0" expanded="true" />
-            <element signature="e#30564#30565#0" expanded="true" />
-            <element signature="e#30676#30698#0" expanded="true" />
-            <element signature="e#30885#31064#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
             <element signature="e#31295#31296#0" expanded="true" />
             <element signature="e#31323#31324#0" expanded="true" />
             <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
@@ -3497,27 +2997,6 @@
         <state relative-caret-position="833">
           <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4640#4641#0" expanded="false" />
-            <element signature="e#4674#4675#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-            <element signature="e#4881#4882#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5718#5719#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5796#5797#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6054#6055#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6144#6145#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#6484#6485#0" expanded="false" />
-            <element signature="e#6534#6535#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6909#6910#0" expanded="false" />
-            <element signature="e#6943#6944#0" expanded="false" />
             <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
           </folding>
         </state>
@@ -3579,7 +3058,6 @@
             <element signature="e#11389#11426#0" expanded="false" />
             <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="true" />
             <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -3589,40 +3067,13 @@
             <element signature="e#17716#17724#0" expanded="false" />
             <element signature="e#18808#18854#0" expanded="false" />
             <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#20994#21020#0" expanded="true" />
-            <element signature="e#21259#21285#0" expanded="true" />
-            <element signature="e#21511#21534#0" expanded="true" />
-            <element signature="e#21889#21912#0" expanded="true" />
             <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#22463#22485#0" expanded="true" />
-            <element signature="e#22917#22939#0" expanded="true" />
-            <element signature="e#23467#23493#0" expanded="true" />
-            <element signature="e#23864#23890#0" expanded="true" />
-            <element signature="e#24253#24280#0" expanded="true" />
             <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#24409#24429#0" expanded="true" />
             <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#27765#28504#0" expanded="true" />
-            <element signature="e#28503#28504#0" expanded="true" />
-            <element signature="e#28588#28614#0" expanded="true" />
-            <element signature="e#28809#28988#0" expanded="true" />
-            <element signature="e#28987#28988#0" expanded="true" />
-            <element signature="e#29119#29145#0" expanded="true" />
-            <element signature="e#29338#29517#0" expanded="true" />
-            <element signature="e#29516#29517#0" expanded="true" />
-            <element signature="e#29648#29671#0" expanded="true" />
-            <element signature="e#29864#30043#0" expanded="true" />
-            <element signature="e#30042#30043#0" expanded="true" />
-            <element signature="e#30174#30200#0" expanded="true" />
-            <element signature="e#30386#30565#0" expanded="true" />
-            <element signature="e#30564#30565#0" expanded="true" />
-            <element signature="e#30676#30698#0" expanded="true" />
-            <element signature="e#30885#31064#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
             <element signature="e#31295#31296#0" expanded="true" />
             <element signature="e#31323#31324#0" expanded="true" />
             <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
@@ -3635,27 +3086,6 @@
         <state relative-caret-position="459">
           <caret line="27" column="22" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4640#4641#0" expanded="false" />
-            <element signature="e#4674#4675#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-            <element signature="e#4881#4882#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5718#5719#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5796#5797#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6054#6055#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6144#6145#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#6484#6485#0" expanded="false" />
-            <element signature="e#6534#6535#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6909#6910#0" expanded="false" />
-            <element signature="e#6943#6944#0" expanded="false" />
             <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
           </folding>
         </state>
@@ -3707,7 +3137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3715,7 +3144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3734,7 +3162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3742,7 +3169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3753,7 +3179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3762,7 +3187,7 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="1326">
           <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
           <folding>
             <element signature="e#4578#4963#0" expanded="false" />
@@ -3772,7 +3197,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/ToggleSensorsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="8619">
           <caret line="718" column="95" selection-start-line="718" selection-start-column="75" selection-end-line="718" selection-end-column="95" />
           <folding>
             <element signature="e#1367#1416#0" expanded="false" />
@@ -3803,7 +3228,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="1819">
           <caret line="107" column="48" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="48" />
           <folding />
         </state>
@@ -3811,30 +3236,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/SensorStreamActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="3978">
           <caret line="262" column="37" selection-start-line="262" selection-start-column="19" selection-end-line="262" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4640#4641#0" expanded="false" />
-            <element signature="e#4674#4675#0" expanded="false" />
-            <element signature="e#4856#4857#0" expanded="false" />
-            <element signature="e#4881#4882#0" expanded="false" />
-            <element signature="e#4936#4937#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5718#5719#0" expanded="false" />
-            <element signature="e#5745#5746#0" expanded="false" />
-            <element signature="e#5796#5797#0" expanded="false" />
-            <element signature="e#5822#5823#0" expanded="false" />
-            <element signature="e#6009#6010#0" expanded="false" />
-            <element signature="e#6054#6055#0" expanded="false" />
-            <element signature="e#6107#6108#0" expanded="false" />
-            <element signature="e#6144#6145#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#6484#6485#0" expanded="false" />
-            <element signature="e#6534#6535#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6909#6910#0" expanded="false" />
-            <element signature="e#6943#6944#0" expanded="false" />
             <marker date="1525552105471" expanded="true" signature="5795:5796" ph=" { " />
           </folding>
         </state>
@@ -3842,8 +3246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/lorenz_fenster/sensorstreamgps/PreferencesActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1663">
-          <caret line="474" column="62" selection-start-line="474" selection-start-column="44" selection-end-line="474" selection-end-column="62" />
+        <state relative-caret-position="17">
+          <caret line="341" column="45" selection-start-line="341" selection-start-column="45" selection-end-line="341" selection-end-column="45" />
           <folding>
             <element signature="e#1404#1429#0" expanded="false" />
             <element signature="e#1871#1924#0" expanded="false" />
@@ -3858,7 +3262,6 @@
             <element signature="e#11389#11426#0" expanded="false" />
             <element signature="method#onAccuracyChanged#0;class#My_Software_SensorListener#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="class#MyToggle_Button_Listener#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="true" />
             <element signature="method#onStart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onRestart#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onResume#0;class#PreferencesActivity#0" expanded="false" />
@@ -3868,40 +3271,13 @@
             <element signature="e#17716#17724#0" expanded="false" />
             <element signature="e#18808#18854#0" expanded="false" />
             <element signature="method#start_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#20994#21020#0" expanded="true" />
-            <element signature="e#21259#21285#0" expanded="true" />
-            <element signature="e#21511#21534#0" expanded="true" />
-            <element signature="e#21889#21912#0" expanded="true" />
             <element signature="method#stop_UDP_Stream#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#startStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#22463#22485#0" expanded="true" />
-            <element signature="e#22917#22939#0" expanded="true" />
-            <element signature="e#23467#23493#0" expanded="true" />
-            <element signature="e#23864#23890#0" expanded="true" />
-            <element signature="e#24253#24280#0" expanded="true" />
             <element signature="method#stopStreaming#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#24409#24429#0" expanded="true" />
             <element signature="method#onItemSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onNothingSelected#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#isOnWifi#0;class#PreferencesActivity#0" expanded="false" />
             <element signature="method#onCreateDialog#0;class#PreferencesActivity#0" expanded="false" />
-            <element signature="e#27765#28504#0" expanded="true" />
-            <element signature="e#28503#28504#0" expanded="true" />
-            <element signature="e#28588#28614#0" expanded="true" />
-            <element signature="e#28809#28988#0" expanded="true" />
-            <element signature="e#28987#28988#0" expanded="true" />
-            <element signature="e#29119#29145#0" expanded="true" />
-            <element signature="e#29338#29517#0" expanded="true" />
-            <element signature="e#29516#29517#0" expanded="true" />
-            <element signature="e#29648#29671#0" expanded="true" />
-            <element signature="e#29864#30043#0" expanded="true" />
-            <element signature="e#30042#30043#0" expanded="true" />
-            <element signature="e#30174#30200#0" expanded="true" />
-            <element signature="e#30386#30565#0" expanded="true" />
-            <element signature="e#30564#30565#0" expanded="true" />
-            <element signature="e#30676#30698#0" expanded="true" />
-            <element signature="e#30885#31064#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
             <element signature="e#31295#31296#0" expanded="true" />
             <element signature="e#31323#31324#0" expanded="true" />
             <marker date="1525552083087" expanded="true" signature="26744:26746" ph="//..." />
